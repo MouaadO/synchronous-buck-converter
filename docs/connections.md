@@ -39,4 +39,4 @@ The [test-point list](../pcb/Test_Points.csv) identifies SW, both MOSFET gates, 
 
 ## Assembly list
 
-[Board_Assembly.csv](../bom/Board_Assembly.csv) is the current reference-by-reference assembly list. C11–C14 are optional DNP footprints. The purchasing workbook is included separately as the original order reference. The eight connector strips use 68 contacts in total, cut to the lengths shown by their footprints.
+[Board_Assembly.csv](../bom/Board_Assembly.csv) is the current reference-by-reference assembly list. The purchasing workbook is included separately as the original order reference. The eight connector strips use 68 contacts in total, cut to the lengths shown by their footprints.

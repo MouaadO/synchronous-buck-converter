@@ -79,10 +79,6 @@ TP5,,GND,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test p
 TP6,,DRV12,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
 TP7,,BOOT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
 TP8,,FILTER_OUT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
-C11,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
-C12,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
-C13,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
-C14,,10u / 100V,ECA2AM100,CP_Radial_D5.0mm_P2.00mm,DNP,Added bulk bypass at external 12V connector; same part as C7
 H1,,M3,,M3_Compact_Head,Bare PCB feature,
 H2,,M3,,M3_Compact_Head,Bare PCB feature,
 H3,,M3,,M3_Compact_Head,Bare PCB feature,
