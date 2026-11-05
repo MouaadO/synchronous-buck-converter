@@ -1,0 +1,3 @@
+(version 1)
+(rule "General clearance" (constraint clearance (min 0.25mm)))
+(rule "60V and floating driver clearance" (condition "A.NetName == '/BOOT' || B.NetName == '/BOOT' || A.NetName == '/M1G' || B.NetName == '/M1G' || A.NetName == '/SW' || B.NetName == '/SW' || A.NetName == '/VIN' || B.NetName == '/VIN' || A.NetName == '/VIN_FILTERED' || B.NetName == '/VIN_FILTERED' || A.NetName == 'Net-(D8--)' || B.NetName == 'Net-(D8--)' || A.NetName == 'Net-(D9--)' || B.NetName == 'Net-(D9--)'") (constraint clearance (min 0.6mm)))

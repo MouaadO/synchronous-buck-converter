@@ -1,0 +1,177 @@
+(footprint "MT2B_20.32mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bourns/Riedon MT2B:14.7+/-0.5 x D5.1+/-0.5;0.8mm leads. Formed at20.32mm pitch with1.1mm finished drills.")
+	(property "Reference" "R32"
+		(at 2.5 4.330128 -90)
+		(layer "F.SilkS")
+		(uuid "aaa46249-1e7a-430a-9bd7-9b54bb6dbf90")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "10m"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec4bd0c8-3626-4f27-9aea-1319ca751d20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3df46a36-8924-45eb-9db8-637102421e50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51395d03-e2ee-42aa-b29b-3a68db9667a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb91073b-e497-40f6-a75a-81898944d169")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.65 -3.05)
+		(end 21.97 -3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1505c70f-c5ab-4b1b-a6b0-3244a13f4787")
+	)
+	(fp_line
+		(start -1.65 3.05)
+		(end -1.65 -3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2779d1b6-992e-4938-8ee0-a0d8945163fb")
+	)
+	(fp_line
+		(start 21.97 -3.05)
+		(end 21.97 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a91cf0b9-d30b-490f-8056-250427a45aec")
+	)
+	(fp_line
+		(start 21.97 3.05)
+		(end -1.65 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7403b4d-3109-4b02-b002-b3e4dc8ddece")
+	)
+	(fp_line
+		(start 2.56 -2.8)
+		(end 17.76 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b57ba68b-44df-4060-ae0e-5025e546ce47")
+	)
+	(fp_line
+		(start 2.56 2.8)
+		(end 2.56 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c982c9f6-ea5d-494a-b945-f89313da09ec")
+	)
+	(fp_line
+		(start 17.76 -2.8)
+		(end 17.76 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "10e75fd7-3d0c-4d9e-b31d-09758b83b172")
+	)
+	(fp_line
+		(start 17.76 2.8)
+		(end 2.56 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7cbc992c-4834-429e-b45c-1dfa3da17806")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "3141d679-96ba-4fbf-a0ae-f7af1f8aec17")
+	)
+	(pad "2" thru_hole circle
+		(at 20.32 0)
+		(size 2.8 2.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "faa922c1-89ed-40e8-a296-0bcf0a964bd3")
+	)
+	(model "${KIPRJMOD}/3dmodels/Riedon_MT2B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

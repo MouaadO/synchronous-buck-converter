@@ -1,0 +1,208 @@
+(footprint "WE_1x06_P2.54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wurth61304011121 cut strip:2.54mm pitch,1.1mm finished hole,6mm mating pin,3mm housing,2.54mm solder tail. For underside Uno interface, install long pins downward.")
+	(property "Reference" "J7"
+		(at 14.976457 0.902223 180)
+		(layer "B.SilkS")
+		(uuid "eccfc887-642b-4656-9d24-e48b0f0158e9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "UNO ANALOG A0-A5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7637fbc-0d86-4d1d-9a20-5d74ee4a9e9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb72947c-346f-4aaa-b873-160002de462a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cd17937-11ff-4df6-abf7-69531c660e0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ed7a149-a079-4027-bef3-f43dbc0cb37d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -1.75)
+		(end 14.219999 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "faa89f3a-8d7a-42f4-b200-5c0a5e7cb648")
+	)
+	(fp_line
+		(start -1.52 1.75)
+		(end -1.52 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1b9b580-8f3e-481c-a569-2509b6320658")
+	)
+	(fp_line
+		(start 14.219999 -1.75)
+		(end 14.219999 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "48398753-0a48-4b7e-8b83-2059a8e246d2")
+	)
+	(fp_line
+		(start 14.219999 1.75)
+		(end -1.52 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2dcc71d-df73-45b5-9ff9-3a9612877f9a")
+	)
+	(fp_line
+		(start -1.27 -1.5)
+		(end 13.969999 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "59a81a71-577b-4fed-ae68-3890f1ebeb8a")
+	)
+	(fp_line
+		(start -1.27 1.5)
+		(end -1.27 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1b10373e-5b16-4071-98f4-d32eeef44160")
+	)
+	(fp_line
+		(start 13.969999 -1.5)
+		(end 13.969999 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d3786223-0632-4ce7-94e5-39843146e694")
+	)
+	(fp_line
+		(start 13.969999 1.5)
+		(end -1.27 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07e0bd2d-1860-4a4f-995e-6e783bb6d9cd")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "b2bafb91-ab31-4f82-beb6-d83d768289f4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83a6c204-6097-4391-a962-a0bf3a5f1db4")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14cce44d-13d2-402a-bd04-5db1c8d1ae45")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ce5e4f3-9ea2-46ca-8d91-c0d0cefd2807")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9be080c4-ed1f-4d04-917c-bb1e96d70f1c")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33ffb60f-3250-4bea-b278-8fc0030c2423")
+	)
+	(model "${KIPRJMOD}/3dmodels/WE_1x06_P2.54.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

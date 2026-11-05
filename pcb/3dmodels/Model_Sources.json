@@ -1,0 +1,663 @@
+{
+  "standard": "Project-bundled KiCad library models for generic packages.",
+  "custom": "Remaining custom models are datasheet-derived dimensional visualizations. L2 now uses a horizontal B66208B/R bobbin assembly visualization with10 physical pins; its winding and clips are approximate, not manufacturer CAD. M1 now includes a detailed authored577202B04000G CAD model with slotted fingers, hole and solder tab, matched to a nominal Infineon package assembly. See Heatsink_Model_Check.json for dimensions and assembly assumptions. Revision F corrects the Boyd code40 tab to the documented flat1.27x0.81mm stem and uses a1.73mm PCB slot width. Manufacturer mounting geometry and inferred cosmetic details are separated in Heatsink_Model_Check.json.",
+  "capacitors": "FR100u100V model uses maximum10.5mm diameter and22mm body height. M-A10u100V uses maximum5.5mm diameter and13mm body height.",
+  "parts": [
+    {
+      "reference": "R3",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C15",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Panasonic_FR_100u_100V_Max.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "L1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Bourns_RLB0914.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C10",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R29",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R32",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Riedon_MT2B.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C16",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Panasonic_FR_100u_100V_Max.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R11",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R31",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q7",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R17",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J11",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x10_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "U1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/DIP-8_W7.62mm.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D9",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C11",
+      "models": [],
+      "dnp": true
+    },
+    {
+      "reference": "C6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C14",
+      "models": [],
+      "dnp": true
+    },
+    {
+      "reference": "J10",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x08_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R9",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "H4",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "J2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SameSky_TB007-508-02BE_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://3dcadfiles.3dexchange.net/step_ap214/205/7827033/Same_Sky_TB007-508-02BE.zip"
+    },
+    {
+      "reference": "D5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P12.70mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R34",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP8",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "TP5",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "C1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/KEMET_C330C105K5R5TA7301_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://search.kemet.com/download/step/C330C105K5R5TA7301"
+    },
+    {
+      "reference": "TP3",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "C12",
+      "models": [],
+      "dnp": true
+    },
+    {
+      "reference": "C13",
+      "models": [],
+      "dnp": true
+    },
+    {
+      "reference": "J3",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SameSky_TB007-508-02BE_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://3dcadfiles.3dexchange.net/step_ap214/205/7827033/Same_Sky_TB007-508-02BE.zip"
+    },
+    {
+      "reference": "R14",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R20",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D7",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "M1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Infineon_IPP086N10N3G_Mounted.wrl",
+        "${KIPRJMOD}/3dmodels/Boyd_577202B04000G_Detailed.wrl",
+        "${KIPRJMOD}/3dmodels/M3_Heatsink_Assembly_Hardware.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R22",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "L2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TDK_E25_Horizontal_Assembly.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP1",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "R27",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x08_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D10",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "H3",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "R23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q3",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R30",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R19",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R16",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P12.70mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D11",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P12.70mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "H2",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "U2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/DIP-8_W7.62mm.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R33",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Riedon_MT2B.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R26",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D4",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R21",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP6",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "Q4",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R24",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R12",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R15",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C3",
+      "models": [
+        "${KIPRJMOD}/3dmodels/KEMET_C317C122J2G5TA_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://search.kemet.com/download/step/C317C122J2G5TA"
+    },
+    {
+      "reference": "D8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP4",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "R8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP2",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "R4",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C9",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "TP7",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "H1",
+      "models": [],
+      "dnp": false
+    },
+    {
+      "reference": "C4",
+      "models": [
+        "${KIPRJMOD}/3dmodels/KEMET_C315C222F3G5TA_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://search.kemet.com/download/step/C315C222F3G5TA"
+    },
+    {
+      "reference": "R18",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "D3",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R35",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R10",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R7",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "Q5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-92_Inline_Wide.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "C8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R13",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "R25",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J9",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x10_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J1",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SameSky_TB007-508-02BE_Manufacturer.wrl"
+      ],
+      "dnp": false,
+      "provenance": "manufacturer CAD, aligned display derivative",
+      "source_url": "https://3dcadfiles.3dexchange.net/step_ap214/205/7827033/Same_Sky_TB007-508-02BE.zip"
+    },
+    {
+      "reference": "M2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-220-3_Vertical.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x08_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J4",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x10_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x08_P2.54.wrl"
+      ],
+      "dnp": false
+    },
+    {
+      "reference": "J7",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WE_1x06_P2.54.wrl"
+      ],
+      "dnp": false
+    }
+  ],
+  "manufacturer_models": "Manufacturer-hosted CAD for J1/J2/J3 and C1/C3/C4; see Manufacturer_CAD/CAD_Sources.json. Original STEP files preserved unchanged; board uses aligned display meshes.",
+  "input_filter_revision": "H:C7 removed, remaining models unchanged"
+}

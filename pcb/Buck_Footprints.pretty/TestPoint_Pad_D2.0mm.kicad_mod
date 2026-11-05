@@ -1,0 +1,73 @@
+(footprint "TestPoint_Pad_D2.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bare top copper test pad. No fitted hardware or solder paste.")
+	(property "Reference" "TP8"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "20744b6b-4064-4b6b-aa20-82536065c5d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "FILTER_OUT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "273fd43b-cd00-49a8-a368-65de8422c3ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fb36109-6db3-4611-9313-e056aecd187b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2508730-fa09-4347-8dcb-531c57eefd8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e90e1408-a442-41ef-9e8e-b8e3483d1a0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ab9eb107-ef04-42ca-a327-40b4325f20a7")
+	)
+)

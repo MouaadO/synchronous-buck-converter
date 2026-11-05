@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "BUCK")(type "KiCad")(uri "${KIPRJMOD}/Buck.kicad_sym")(options "")(descr "Discrete buck circuit and BOM physical pin assignments")))

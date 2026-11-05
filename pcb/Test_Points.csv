@@ -1,0 +1,12 @@
+﻿Measurement,Positive point,Reference point,Meaning
+High-side gate,TP2,TP1,"M1 gate-to-source voltage; TP1 is switching node, not ground"
+Low-side gate,TP3,TP4,M2 gate-to-source voltage
+Bootstrap supply,TP7,TP1,Floating driver supply
+Switching node,TP1,TP5,Half-bridge switching voltage
+Driver supply,TP6,TP5,External12V rail
+Input voltage,J10.1,J10.2,Direct voltage at input capacitor
+Output voltage,J11.10,J11.9,Direct output voltage
+Inductor shunt,J9.10,J9.9,"Differential shunt voltage; both pins are near Vout, neither is ground"
+Inductor current ADC,J8.1,J8.2,Conditioned current voltage
+Filtered current,J7.4,J6.6,Arduino A3
+Low-side current,J7.5,J6.6,Arduino A4

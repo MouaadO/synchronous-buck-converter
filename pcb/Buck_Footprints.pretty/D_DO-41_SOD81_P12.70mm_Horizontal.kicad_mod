@@ -1,0 +1,353 @@
+(footprint "D_DO-41_SOD81_P12.70mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
+	(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
+	(property "Reference" "D5"
+		(at -2 0 -90)
+		(layer "F.SilkS")
+		(uuid "ac57f517-0436-442b-83d4-0abc46057162")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "MBR1100"
+		(at 6.35 2.47 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eceb038c-5fde-4267-871c-1e0b49718d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e2f9c1b-76fe-4bb2-a7d3-0f4e74c1b82e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "406c50eb-c7ba-4f4f-bacd-ecc21c727fd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68cf5ddf-882f-434a-84d0-fed14a46c80d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.34 0)
+		(end 3.63 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0022edc1-4ed0-4f65-a146-4b167eb0e59a")
+	)
+	(fp_line
+		(start 3.63 -1.47)
+		(end 3.63 1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a01e65a7-bc49-4dda-97be-73cf00da9d51")
+	)
+	(fp_line
+		(start 3.63 1.47)
+		(end 9.07 1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "953387cb-ed98-4a6d-8d93-7ddecf8aac2e")
+	)
+	(fp_line
+		(start 4.41 -1.47)
+		(end 4.41 1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47c3cd84-a0c2-4276-94a8-d6951b1637bf")
+	)
+	(fp_line
+		(start 4.53 -1.47)
+		(end 4.53 1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de5b48cf-7b2b-4c82-b05e-05ec2089ef00")
+	)
+	(fp_line
+		(start 4.65 -1.47)
+		(end 4.65 1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04483b80-5271-42c7-925d-c7114e692a76")
+	)
+	(fp_line
+		(start 9.07 -1.47)
+		(end 3.63 -1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "023c06a2-7688-4783-85c8-7bf2084ea8a4")
+	)
+	(fp_line
+		(start 9.07 1.47)
+		(end 9.07 -1.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37522a82-cf9c-4e63-ab40-291314e6eb86")
+	)
+	(fp_line
+		(start 11.36 0)
+		(end 9.07 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4900b26-621a-4cf2-92d4-40a2aeb7682c")
+	)
+	(fp_line
+		(start -1.35 -1.6)
+		(end -1.35 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c119b00-250c-4b01-b6b8-128a67a5c1a7")
+	)
+	(fp_line
+		(start -1.35 1.6)
+		(end 14.05 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cabf6da8-586d-4e5f-90dc-0951deaa8f13")
+	)
+	(fp_line
+		(start 14.05 -1.6)
+		(end -1.35 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa2cf148-838e-4818-a2ab-40ed07d6967e")
+	)
+	(fp_line
+		(start 14.05 1.6)
+		(end 14.05 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6970ba18-92a4-495f-b110-3c87a1780a39")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "173b34a4-d79e-4f5a-ae96-03f5415a9551")
+	)
+	(fp_line
+		(start 3.75 -1.35)
+		(end 3.75 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bbdb1e3-ba3f-4f45-96ed-f4abb9167ed6")
+	)
+	(fp_line
+		(start 3.75 1.35)
+		(end 8.95 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e783919-03cd-40f1-9650-9e00f8248e25")
+	)
+	(fp_line
+		(start 4.43 -1.35)
+		(end 4.43 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7432d62-16a2-43b8-b18b-7d87e3841f58")
+	)
+	(fp_line
+		(start 4.53 -1.35)
+		(end 4.53 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fea683c0-02e2-4d63-bc1f-5f689c8a4757")
+	)
+	(fp_line
+		(start 4.63 -1.35)
+		(end 4.63 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea34d2a4-90ff-4977-bb93-a0f0d860b84c")
+	)
+	(fp_line
+		(start 8.95 -1.35)
+		(end 3.75 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "debf6d1b-fbad-4171-b4a9-dffd09f9fefe")
+	)
+	(fp_line
+		(start 8.95 1.35)
+		(end 8.95 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e59bd34-6585-41cd-b446-53fb64898937")
+	)
+	(fp_line
+		(start 12.7 0)
+		(end 8.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e131aaca-250d-4730-8ee5-a35819ce45c1")
+	)
+	(fp_text user "K"
+		(at 0 -2.1 0)
+		(layer "F.Fab")
+		(uuid "294285bf-fa8d-401c-bacc-056da4535c6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.74 0 0)
+		(layer "F.Fab")
+		(uuid "7eed9859-dfbe-4797-85e7-5a98b9c4a397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -2.1 0)
+		(layer "F.Fab")
+		(uuid "b3c93828-fa9c-4dbe-8e73-0e70648c57ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "52478319-d47d-4897-a1e6-b6a2a2fe2cdf")
+	)
+	(pad "2" thru_hole oval
+		(at 12.7 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "96bb2cd0-0783-40e2-86a5-586d02ec5ebf")
+	)
+	(model "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P12.70mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

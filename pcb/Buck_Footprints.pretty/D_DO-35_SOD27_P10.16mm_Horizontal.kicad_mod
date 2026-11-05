@@ -1,0 +1,351 @@
+(footprint "D_DO-35_SOD27_P10.16mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
+	(property "Reference" "D2"
+		(at 0.517638 1.931851 0)
+		(layer "F.SilkS")
+		(uuid "53973df8-2a06-4bd6-9448-175b6ee8e36e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1N5231B"
+		(at 5.08 2.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cb1ad83-eb0f-4bb1-92ea-a8a64e2fe682")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e8bb52b-5952-4e6b-a2bd-fe118f7709c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01c2b5d5-e7aa-4c16-818e-cb58e3237c4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec58e98e-1593-4fbd-8e98-27f8aa7967ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.04 0)
+		(end 2.96 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83f4bd2d-c6ca-4721-b9a6-85470f29d83e")
+	)
+	(fp_line
+		(start 2.96 -1.12)
+		(end 2.96 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de5d1ebf-9c0a-40b9-ba5c-b4ee297c3fa8")
+	)
+	(fp_line
+		(start 2.96 1.12)
+		(end 7.2 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c921dbb-6fca-4359-9742-3d9e1f7fa3da")
+	)
+	(fp_line
+		(start 3.56 -1.12)
+		(end 3.56 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1831b49c-1273-4d8f-99c7-0b777edef9f8")
+	)
+	(fp_line
+		(start 3.68 -1.12)
+		(end 3.68 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf56567f-5921-4743-8095-a5243fe95be4")
+	)
+	(fp_line
+		(start 3.8 -1.12)
+		(end 3.8 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91b2c8b4-2017-4d7c-9ea0-616f1692f34f")
+	)
+	(fp_line
+		(start 7.2 -1.12)
+		(end 2.96 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f9b1789-62e7-4acb-9e91-edae8ca48ec1")
+	)
+	(fp_line
+		(start 7.2 1.12)
+		(end 7.2 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "885d7394-2daf-4e2c-978f-8e3ec15fdd93")
+	)
+	(fp_line
+		(start 9.12 0)
+		(end 7.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41eda0ce-77eb-4416-bba7-c9038000f97c")
+	)
+	(fp_line
+		(start -1.05 -1.25)
+		(end -1.05 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9eb4ab57-8367-4357-9fdb-15db6f1a73a2")
+	)
+	(fp_line
+		(start -1.05 1.25)
+		(end 11.21 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea859873-2d27-4d8c-beca-5c95b3987d98")
+	)
+	(fp_line
+		(start 11.21 -1.25)
+		(end -1.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5704489-b917-4ea5-be08-f4c06acbfb2a")
+	)
+	(fp_line
+		(start 11.21 1.25)
+		(end 11.21 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "521a3828-7911-483f-a72f-a169cfdf8e18")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cd92339-066d-45e0-a799-4a7ad62b2e78")
+	)
+	(fp_line
+		(start 3.08 -1)
+		(end 3.08 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc5128bd-1f57-4a40-9da4-06d427b2ada5")
+	)
+	(fp_line
+		(start 3.08 1)
+		(end 7.08 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b002b38f-32e6-4942-a25e-c3a70ab46e59")
+	)
+	(fp_line
+		(start 3.58 -1)
+		(end 3.58 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0f3731f-010d-4af6-8b4f-b15ff8de5bd4")
+	)
+	(fp_line
+		(start 3.68 -1)
+		(end 3.68 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7f5c55a-e687-482f-abfe-f7a67d819b25")
+	)
+	(fp_line
+		(start 3.78 -1)
+		(end 3.78 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f3652c1-4d9c-4d7e-9e47-18b971f240e2")
+	)
+	(fp_line
+		(start 7.08 -1)
+		(end 3.08 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44311065-3017-429a-b572-2902758fcdb3")
+	)
+	(fp_line
+		(start 7.08 1)
+		(end 7.08 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e23c9351-26ca-4283-a2c0-efb178e83ff5")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 7.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3358f55e-717e-42ab-a02f-126999555f2c")
+	)
+	(fp_text user "K"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "8408ada2-580f-4a9e-9d6e-3aeac7459cbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.38 0 0)
+		(layer "F.Fab")
+		(uuid "8b4a15a4-6cd1-4e17-9584-50e0b915b350")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "dc303601-d47b-4647-89ae-d0c5d0517f0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57b8501f-24dc-4ab4-a692-be68b4efea4e")
+	)
+	(pad "2" thru_hole oval
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd1eaee2-8d88-4111-a872-e4d97116223e")
+	)
+	(model "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

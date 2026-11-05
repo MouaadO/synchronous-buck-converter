@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-04",
+  "type": "Manufacturer-hosted geometry; original STEP files preserved unchanged; aligned display derivatives described per part.",
+  "parts": [
+    {
+      "mpn": "TB007-508-02BE",
+      "refs": [
+        "J1",
+        "J2",
+        "J3"
+      ],
+      "filename": "SameSky_TB007-508-02BE_Manufacturer",
+      "page": "https://www.sameskydevices.com/product/resource/3dmodel/tb007-508-series/tb007-508-02be",
+      "url": "https://3dcadfiles.3dexchange.net/step_ap214/205/7827033/Same_Sky_TB007-508-02BE.zip",
+      "note": "Manufacturer geometry, rotated and translated to the existing two pad centres; no geometry scaling. Body 10.76 x 10.25 x 14 mm, pitch 5.08 mm. Original STEP has no usable face colours; display colours assigned by surface position.",
+      "original_step": "3dmodels/Manufacturer_CAD/TB007-508-02BE.step",
+      "original_sha256": "d1d0346d7ea4422013af09f658ca2e0e977d822e15edd927e8a955dcad7e8492",
+      "display_wrl": "3dmodels/SameSky_TB007-508-02BE_Manufacturer.wrl",
+      "transform_matrix": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation_mm": [
+        5.08,
+        4.9,
+        0
+      ],
+      "model_bounds_mm": [
+        [
+          -2.54,
+          -5.35,
+          -3.7000000000000104
+        ],
+        [
+          8.22,
+          4.9,
+          14.0
+        ]
+      ]
+    },
+    {
+      "mpn": "C330C105K5R5TA7301",
+      "refs": [
+        "C1"
+      ],
+      "filename": "KEMET_C330C105K5R5TA7301_Manufacturer",
+      "page": "https://www.digikey.de/en/models/3726162",
+      "url": "https://search.kemet.com/download/step/C330C105K5R5TA7301",
+      "note": "Manufacturer body/formed leads, aligned to 5.08 mm pad pitch. Display derivative trims the uncut lead ends at 2.5 mm below the PCB. Assumed assembly stand-off: body datum 4 mm above PCB, allowing the supplied lead bends to clear the surface.",
+      "original_step": "3dmodels/Manufacturer_CAD/C330C105K5R5TA7301.step",
+      "original_sha256": "d160077f196918874b0d682d0bec6d680d54f7b81897f255a382669f531d26b3",
+      "display_wrl": "3dmodels/KEMET_C330C105K5R5TA7301_Manufacturer.wrl",
+      "transform_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation_mm": [
+        -1.015,
+        2.035,
+        4.0
+      ],
+      "model_bounds_mm": [
+        [
+          -1.015,
+          -2.04,
+          -15.928035950867265
+        ],
+        [
+          6.095000000000001,
+          2.035,
+          10.733170000000001
+        ]
+      ]
+    },
+    {
+      "mpn": "C317C122J2G5TA",
+      "refs": [
+        "C3"
+      ],
+      "filename": "KEMET_C317C122J2G5TA_Manufacturer",
+      "page": "https://search.kemet.com/download/step/C317C122J2G5TA",
+      "url": "https://search.kemet.com/download/step/C317C122J2G5TA",
+      "note": "Manufacturer body/formed leads, aligned to 5.08 mm pad pitch. Display derivative trims the uncut lead ends at 2.5 mm below the PCB. Assumed assembly stand-off: body datum 2 mm above PCB, allowing supplied lead bends to clear the surface.",
+      "original_step": "3dmodels/Manufacturer_CAD/C317C122J2G5TA.step",
+      "original_sha256": "c3a414ea61ccc97afbb1c4292437fc20dbd685ce4a0718576cfe0fbd69147223",
+      "display_wrl": "3dmodels/KEMET_C317C122J2G5TA_Manufacturer.wrl",
+      "transform_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation_mm": [
+        0.635,
+        1.27,
+        2.0
+      ],
+      "model_bounds_mm": [
+        [
+          -0.25499800670566886,
+          -1.275,
+          -6.4729382540037825
+        ],
+        [
+          5.334998006705663,
+          1.27,
+          5.60807
+        ]
+      ]
+    },
+    {
+      "mpn": "C315C222F3G5TA",
+      "refs": [
+        "C4"
+      ],
+      "filename": "KEMET_C315C222F3G5TA_Manufacturer",
+      "page": "https://search.kemet.com/download/step/C315C222F3G5TA",
+      "url": "https://search.kemet.com/download/step/C315C222F3G5TA",
+      "note": "Manufacturer body/straight leads, aligned to 2.54 mm pad pitch. Display derivative trims uncut lead ends at 2.5 mm below PCB. Assumed 0.5 mm body stand-off.",
+      "original_step": "3dmodels/Manufacturer_CAD/C315C222F3G5TA.step",
+      "original_sha256": "a04191a57c7125d1f98f6e9bfec61852b51d1cd429f0c37ff5337bdf3e913fa9",
+      "display_wrl": "3dmodels/KEMET_C315C222F3G5TA_Manufacturer.wrl",
+      "transform_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation_mm": [
+        3.175,
+        1.27,
+        0.5
+      ],
+      "model_bounds_mm": [
+        [
+          -0.6350000000000002,
+          -1.275,
+          -6.5
+        ],
+        [
+          3.1750000000000007,
+          1.27,
+          5.16
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+*.kicad_prl
+*.lck
+*-backups/
+fp-info-cache
+*.raw
+*.net
+*.log
+!docs/results/*.log
+__pycache__/
+Thumbs.db
+.DS_Store

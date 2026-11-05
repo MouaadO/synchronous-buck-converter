@@ -1,0 +1,175 @@
+(footprint "KEMET_C315_P2.54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Manufacturer radial capacitor envelope; pitch and maximum body from supplied series datasheet.")
+	(property "Reference" "C4"
+		(at 1.5 2.598076 0)
+		(layer "F.SilkS")
+		(uuid "7b897c2e-50b1-43a3-b6e4-c035c261fe2f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "2.2n"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bee45c7f-69cd-4408-9a04-b25c9be2f410")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f540243a-b5fb-41ec-97cf-a9013096c824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a36b334b-16c7-4e77-acf3-499a4d982c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cf6a202-bdc1-4ce8-9c82-0d2f55cd812d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.135 -1.77)
+		(end 3.675 -1.77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc022f7c-bdbf-4cfd-8e70-b6fdccb6d519")
+	)
+	(fp_line
+		(start -1.135 1.77)
+		(end -1.135 -1.77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c256ba2c-a848-4427-a3d1-7d14002a15d6")
+	)
+	(fp_line
+		(start 3.675 -1.77)
+		(end 3.675 1.77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "10bb8b07-d83f-4bbc-8945-3e40413fef9f")
+	)
+	(fp_line
+		(start 3.675 1.77)
+		(end -1.135 1.77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d98b04e-74f1-475d-a044-21262708c89e")
+	)
+	(fp_line
+		(start -0.885 -1.52)
+		(end 3.425 -1.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9f24173b-9ef0-4487-88ed-293373ab6cc8")
+	)
+	(fp_line
+		(start -0.885 1.52)
+		(end -0.885 -1.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a7c9a72d-0a9a-409f-b0e5-62d19a59dad2")
+	)
+	(fp_line
+		(start 3.425 -1.52)
+		(end 3.425 1.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eb51baa6-3f62-4463-b15e-0849dfe54d1d")
+	)
+	(fp_line
+		(start 3.425 1.52)
+		(end -0.885 1.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a89b1eb1-6462-44c1-ba7d-981068b26ab0")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "85f8dc91-419b-4194-a501-f7b535407321")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06da4488-786f-4d80-bb7a-506a70c2dde5")
+	)
+	(model "${KIPRJMOD}/3dmodels/KEMET_C315C222F3G5TA_Manufacturer.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

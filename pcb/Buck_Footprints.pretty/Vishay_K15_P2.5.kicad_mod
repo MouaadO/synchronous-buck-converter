@@ -1,0 +1,175 @@
+(footprint "Vishay_K15_P2.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Manufacturer radial capacitor envelope; pitch and maximum body from supplied series datasheet.")
+	(property "Reference" "C10"
+		(at -2.897777 0.776457 0)
+		(layer "F.SilkS")
+		(uuid "6dc171a6-c58c-489c-a374-106ff22f655d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1n"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38f005f2-086f-4aa2-a873-f2ad2a9ad7de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d06da47-cfc5-4485-a066-c13cd9a9aaa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed335391-f1d3-4737-9cf5-7d068195aec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c85500a2-f7a1-4c4b-8ede-2ecfc3a4fec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.25 -1.8)
+		(end 3.75 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bab3377-56f3-441c-b34e-f66191b31292")
+	)
+	(fp_line
+		(start -1.25 1.8)
+		(end -1.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5651e5b8-88e8-4699-9461-a1859f76d326")
+	)
+	(fp_line
+		(start 3.75 -1.8)
+		(end 3.75 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6bb7cfc-5be3-43c8-b55f-91ba01a3e200")
+	)
+	(fp_line
+		(start 3.75 1.8)
+		(end -1.25 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "761b09a6-7800-450f-9420-145463811692")
+	)
+	(fp_line
+		(start -1 -1.55)
+		(end 3.5 -1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7d9fc680-cfde-46d1-b16f-d967f8a88213")
+	)
+	(fp_line
+		(start -1 1.55)
+		(end -1 -1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "89300a68-e303-455b-a6d8-eea1500d806a")
+	)
+	(fp_line
+		(start 3.5 -1.55)
+		(end 3.5 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "82483f18-d763-457b-aa8c-4559ab7e1185")
+	)
+	(fp_line
+		(start 3.5 1.55)
+		(end -1 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "46a45d27-999c-431f-8cd8-dfb7b0b12162")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "72f931b9-de2c-4b3d-b2a1-2d6e0f0668ac")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d77b7c12-c8af-4506-b1cd-af4efed59667")
+	)
+	(model "${KIPRJMOD}/3dmodels/Vishay_K15_P2.5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

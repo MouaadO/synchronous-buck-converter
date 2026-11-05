@@ -1,0 +1,97 @@
+﻿PCB reference,LTspice reference,Value,Manufacturer part number,Footprint,Fitted,Assembly note
+R1,R1,120k,MFR-25FBF52-120K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,120 kΩ resistor · 1% · 0.25 W (Vin ÷13)
+R2,R2,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+M1,M1,IPP086N10N3,IPP086N10N3GXKSA1,IPP086_with_577202,Yes,N-MOSFET · 100 V · 8.6 mΩ · 80 A · Qg 55 nC · TO-220
+R3,R3,30.1k,MFR-25FBF52-30K1,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,30.1 kΩ resistor · 1% · 0.25 W (Vout ÷4)
+R5,R5,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+Q2,Q2,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+R4,R4,4.7k,MFR-25FBF52-4K7,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,4.7 kΩ resistor · 1% · 0.25 W
+D1,D1,UF4003,UF4003-E3/54,D_DO-41_SOD81_P12.70mm_Horizontal,Yes,Ultrafast diode · 200 V · 1 A · 50 ns · DO-41 (bootstrap)
+C1,C1,1u / 50V,C330C105K5R5TA7301,KEMET_C330_P5.08,Yes,1 µF capacitor · 50 V · X7R · 10% (bootstrap)
+Q4,Q4,2N5401,2N5401YBU,TO-92_Inline_Wide,Yes,PNP transistor · 150 V · 600 mA · 0.625 W · complement of 2N5551 (totem bottoms)
+R8,R8,4.7k,MFR-25FBF52-4K7,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,4.7 kΩ resistor · 1% · 0.25 W
+C2,C2,1n,K102K15X7RF5TL2,Vishay_K15_P2.5,Yes,1 nF capacitor · 50 V · X7R · 10% (speed-up)
+R9,R9,2.2k,MFR25SFTF52-2K2,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Yes,2.2 kΩ resistor · 1% · 0.25 W
+R11,R11,100k,RNF14BTC100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,100 kΩ resistor · 0.1% · 0.25 W
+R12,R12,1k,MFR-25FBF52-1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,1 kΩ resistor · 1% · 0.25 W
+R13,R13,4.99k,MFR-25FBF52-4K99,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,4.99 kΩ resistor · 1% · 0.25 W
+R14,R14,4.99k,MFR-25FBF52-4K99,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,4.99 kΩ resistor · 1% · 0.25 W
+R15,R15,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+C3,C3,1.2n,C317C122J2G5TA,KEMET_C317_P5.08,Yes,1.2 nF ceramic capacitor · 200 V 
+C4,C4,2.2n,C315C222F3G5TA,KEMET_C315_P2.54,Yes,2.2 nF capacitor · 25 V · C0G · 1% (filter)
+R16,R16,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+R17,R17,1k,MFR-25FBF52-1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,1 kΩ resistor · 1% · 0.25 W
+R18,R18,100k,MFR-25FBF52-100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,100 kΩ resistor · 1% · 0.25 W
+R19,R19,2k,MFR-25FBF52-2K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,2 kΩ resistor · 1% · 0.25 W
+R20,R20,1k,MFR-25FBF52-1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,1 kΩ resistor · 1% · 0.25 W
+R21,R21,100k,RNF14BTC100K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,100 kΩ resistor · 0.1% · 0.25 W
+R10,R10,0.51,FMP100JR-52-0R51,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,0.5 Ω resistor · 5% · 1 W
+D5,D5,MBR1100,MBR1100RLG,D_DO-41_SOD81_P12.70mm_Horizontal,Yes,Schottky rectifier · 100 V · 1 A · DO-41
+C5,C5,1n,K102K15X7RF5TL2,Vishay_K15_P2.5,Yes,1 nF capacitor · 50 V · X7R · 10% (speed-up)
+C6,C6,100n,K104K15X7RF5TL2,Vishay_K15_P2.5,Yes,100 nF capacitor · 50 V · X7R · 10%
+D6,D6,1N5231B,1N5231B-TR,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,5.1 V Zener diode · 500 mW · DO-35 (ADC clamp)
+D2,D2,1N5231B,1N5231B-TR,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,5.1 V Zener diode · 500 mW · DO-35 (ADC clamp)
+D3,D3,1N5231B,1N5231B-TR,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,5.1 V Zener diode · 500 mW · DO-35 (ADC clamp)
+D4,D4,1N5231B,1N5231B-TR,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,5.1 V Zener diode · 500 mW · DO-35 (ADC clamp)
+D7,D7,1N5231B,1N5231B-TR,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,5.1 V Zener diode · 500 mW · DO-35 (ADC clamp)
+M2,M2,IPP086N10N3,IPP086N10N3GXKSA1,TO-220-3_Vertical,Yes,N-MOSFET · 100 V · 8.6 mΩ · 80 A · Qg 55 nC · TO-220
+U1,U4 / U1,LT1490A,LT1490ACN8#PBF,DIP-8_W7.62mm,Yes,Dual Over-The-Top op amp · 44 V inputs · rail-to-rail
+U2,U2,LT1490A,LT1490ACN8#PBF,DIP-8_W7.62mm,Yes,Dual Over-The-Top op amp · 44 V inputs · rail-to-rail
+R22,R22,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+C8,C8,1n,K102K15X7RF5TL2,Vishay_K15_P2.5,Yes,1 nF capacitor · 50 V · X7R · 10% (speed-up)
+R23,R23,2.2k,MFR25SFTF52-2K2,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Yes,2.2 kΩ resistor · 1% · 0.25 W
+R24,R24,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+C9,C9,1n,K102K15X7RF5TL2,Vishay_K15_P2.5,Yes,1 nF capacitor · 50 V · X7R · 10% (speed-up)
+R25,R25,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+R26,R26,4.7k,MFR-25FBF52-4K7,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,4.7 kΩ resistor · 1% · 0.25 W
+D8,D8,1N4148,1N4148-TAP,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,Small-signal diode · 100 V · 150 mA · 4 ns · DO-35
+R7,R7,10,MFR-25FBF52-10R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 Ω resistor · 1% · 0.25 W (gate)
+D9,D9,1N4148,1N4148-TAP,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,Small-signal diode · 100 V · 150 mA · 4 ns · DO-35
+R27,R27,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+R29,R29,2.2k,MFR25SFTF52-2K2,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Yes,2.2 kΩ resistor · 1% · 0.25 W
+R30,R30,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+C10,C10,1n,K102K15X7RF5TL2,Vishay_K15_P2.5,Yes,1 nF capacitor · 50 V · X7R · 10% (speed-up)
+R31,R31,10,MFR-25FBF52-10R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 Ω resistor · 1% · 0.25 W (gate)
+D10,D10,1N4148,1N4148-TAP,D_DO-35_SOD27_P10.16mm_Horizontal,Yes,Small-signal diode · 100 V · 150 mA · 4 ns · DO-35
+Q3,Q3,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+Q7,Q7,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+Q1,Q1,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+Q5,Q5,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+Q8,Q8,2N5551,2N5551TA,TO-92_Inline_Wide,Yes,"NPN transistor · 160 V · 600 mA · 0.625 W · hFE ≥ 80 (all NPN: inverters, level shift, totem tops)"
+Q6,Q6,2N5401,2N5401YBU,TO-92_Inline_Wide,Yes,PNP transistor · 150 V · 600 mA · 0.625 W · complement of 2N5551 (totem bottoms)
+D11,D11,1N4744A,1N4744A-TAP,D_DO-41_SOD81_P12.70mm_Horizontal,Yes,Zener Diodes 15 Volt 1.3 Watt
+J1,,VIN 37.8-58.8V,TB007-508-02BE,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,Yes,
+J2,,DRIVER 12V,TB007-508-02BE,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,Yes,
+J3,,VOUT 14.5V 4A,TB007-508-02BE,TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,Yes,
+J4,,UNO DIGITAL 10,61304011121 cut to 10,WE_1x10_P2.54,Yes,
+J5,,UNO DIGITAL 8,61304011121 cut to 8,WE_1x08_P2.54,Yes,
+J6,,UNO POWER,61304011121 cut to 8,WE_1x08_P2.54,Yes,
+J7,,UNO ANALOG A0-A5,61304011121 cut to 6,WE_1x06_P2.54,Yes,
+J8,,IMES / GND,61304011121 cut to 8,WE_1x08_P2.54,Yes,
+J9,,ISHUNT+ / ISHUNT-,61304011121 cut to 10,WE_1x10_P2.54,Yes,
+J10,,VIN_MES / GND,61304011121 cut to 8,WE_1x08_P2.54,Yes,
+J11,,VOUT_MES / GND,61304011121 cut to 10,WE_1x10_P2.54,Yes,
+TP1,,SW,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP2,,M1G,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP3,,M2G,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP4,,LS_SHUNT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP5,,GND,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP6,,DRV12,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP7,,BOOT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+TP8,,FILTER_OUT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
+C11,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
+C12,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
+C13,,100n / 50V,K104K15X7RF5TL2,Vishay_K15_P2.5,DNP,Added local bypass: low-side driver / U1 / U2
+C14,,10u / 100V,ECA2AM100,CP_Radial_D5.0mm_P2.00mm,DNP,Added bulk bypass at external 12V connector; same part as C7
+H1,,M3,,M3_Compact_Head,Bare PCB feature,
+H2,,M3,,M3_Compact_Head,Bare PCB feature,
+H3,,M3,,M3_Compact_Head,Bare PCB feature,
+H4,,M3,,M3_Compact_Head,Bare PCB feature,
+L1,Lin,10µ,RLB0914-100KL,Bourns_RLB0914_P5,Yes,10 µH inductor · Irms 2.7 A · Isat 6.7 A · 48 mΩ
+L2,Lout,130µ,Hand-wound E25/13/7 N87,TDK_E25_B66208BR_Horizontal_10Pin_Winding10_6,Yes,E25/13/7 N87 winding on horizontal B66208B/R10-pin bobbin. Terminate loose winding ends to pin10(SW) and pin6(output); remaining8 pins isolated solder anchors.130uH is simulation nominal.
+C15,Cin,100u / 100V,EEU-FR2A101B,CP_Radial_D10.0mm_P5.00mm,Yes,100 µF capacitor · 100 V · low-ESR electrolytic (FR series) · 1.5 A ripple at 100 kHz / 105 °C · ESR 84 mΩ · Ø10×20 mm · 5 mm pitch
+C16,Cout,100u / 100V,EEU-FR2A101B,CP_Radial_D10.0mm_P5.00mm,Yes,100 µF capacitor · 100 V · low-ESR electrolytic (FR series) · 1.5 A ripple at 100 kHz / 105 °C · ESR 84 mΩ · Ø10×20 mm · 5 mm pitch
+R32,Rshunt,10m,MT2B-0R01F1,MT2B_20.32mm,Yes,10 mΩ current sense resistor · 1%
+R33,Rshunt2,10m,MT2B-0R01F1,MT2B_20.32mm,Yes,10 mΩ current sense resistor · 1%
+R34,Rgate1,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W
+R35,Rgate2,10k,MFR-25FBF52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Yes,10 kΩ resistor · 1% · 0.25 W

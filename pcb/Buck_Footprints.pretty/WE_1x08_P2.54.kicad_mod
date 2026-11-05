@@ -1,0 +1,223 @@
+(footprint "WE_1x08_P2.54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wurth61304011121 cut strip:2.54mm pitch,1.1mm finished hole,6mm mating pin,3mm housing,2.54mm solder tail. For underside Uno interface, install long pins downward.")
+	(property "Reference" "J10"
+		(at -100.051112 -2.411772 0)
+		(layer "F.SilkS")
+		(uuid "baf6bdbd-6ef1-41e1-8880-1af2c42119da")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VIN_MES / GND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "884f6833-2fa2-4818-a5d6-05566e47bfe8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca7cee15-71c6-4443-83c9-136d4879e59d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c018a39-9181-480e-b867-ca261b3cdbac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78d06a50-0a11-4f03-b4cc-093d2ee3c350")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -1.75)
+		(end 19.3 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "42dc4315-182d-4120-b1aa-c4d4a265af0e")
+	)
+	(fp_line
+		(start -1.52 1.75)
+		(end -1.52 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bc00d92-d1a0-4ef9-bace-e975f8cdd064")
+	)
+	(fp_line
+		(start 19.3 -1.75)
+		(end 19.3 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "28308da6-ea0a-4a16-81e6-8b3e1084c069")
+	)
+	(fp_line
+		(start 19.3 1.75)
+		(end -1.52 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3eb6a73-c2cf-48d6-9f7e-28fbafc4d4ad")
+	)
+	(fp_line
+		(start -1.27 -1.5)
+		(end 19.05 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ad32780a-a318-4603-b8da-273025b655b1")
+	)
+	(fp_line
+		(start -1.27 1.5)
+		(end -1.27 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cb788c16-a7a8-4da0-ae8c-74d99c611114")
+	)
+	(fp_line
+		(start 19.05 -1.5)
+		(end 19.05 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "382bd402-7727-480b-b018-7a05547bf0b8")
+	)
+	(fp_line
+		(start 19.05 1.5)
+		(end -1.27 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "55b9728d-87e4-46c9-95c5-1bc468bd5508")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "05f5745f-e958-40a8-a986-457ba21ef743")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60c7da24-f9fa-420f-88f8-8b3c928c9efb")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "182b9ea1-feb0-4d3b-88b3-a4db4da7ffcd")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06917b3a-21e1-4a36-907f-0c4d6f3baa31")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3542cce-f207-4a1f-91ca-8ed9355f2e86")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10a10aed-eb61-4808-97ab-432a726c55c6")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c9af5ee-5122-4b34-9906-203fac17ac2a")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f143a1f8-8715-4371-b657-1d94b9ac8686")
+	)
+	(model "${KIPRJMOD}/3dmodels/WE_1x08_P2.54.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
