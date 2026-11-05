@@ -14,7 +14,7 @@ Battery input, driver power, PWM ground and measurement ground are common. The U
 
 J4–J7 mount on the underside of the buck PCB, with the male contacts pointing towards the PWM board’s female sockets. The two PWM signals are J4.9/D9 and J4.8/D10; ground is J4.4, also joined to J6.6/J6.7. J7 exposes A0 through A4 in this order: input voltage, output voltage, inductor current, filtered current, low-side current.
 
-The 3D stack illustrates a nominal 14 mm surface-to-surface gap between the PWM top and buck bottom. Spacer length and connector insertion are selected during mechanical assembly. Four M3 mounting positions support the board, including two matching positions at the PWM interface.
+The 3D stack illustrates a nominal 14 mm surface-to-surface gap between the PWM top and buck bottom. Spacer length and connector insertion are selected during mechanical assembly. The buck board has no screw-mounting holes; the mating header positions remain unchanged.
 
 ## Additional measurement headers
 

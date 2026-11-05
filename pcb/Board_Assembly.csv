@@ -79,10 +79,6 @@ TP5,,GND,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test p
 TP6,,DRV12,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
 TP7,,BOOT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
 TP8,,FILTER_OUT,PCB copper pad,TestPoint_Pad_D2.0mm,Bare PCB feature,Bare copper test pad; no purchased component
-H1,,M3,,M3_Compact_Head,Bare PCB feature,
-H2,,M3,,M3_Compact_Head,Bare PCB feature,
-H3,,M3,,M3_Compact_Head,Bare PCB feature,
-H4,,M3,,M3_Compact_Head,Bare PCB feature,
 L1,Lin,10µ,RLB0914-100KL,Bourns_RLB0914_P5,Yes,10 µH inductor · Irms 2.7 A · Isat 6.7 A · 48 mΩ
 L2,Lout,130µ,Hand-wound E25/13/7 N87,TDK_E25_B66208BR_Horizontal_10Pin_Winding10_6,Yes,E25/13/7 N87 winding on horizontal B66208B/R10-pin bobbin. Terminate loose winding ends to pin10(SW) and pin6(output); remaining8 pins isolated solder anchors.130uH is simulation nominal.
 C15,Cin,100u / 100V,EEU-FR2A101B,CP_Radial_D10.0mm_P5.00mm,Yes,100 µF capacitor · 100 V · low-ESR electrolytic (FR series) · 1.5 A ripple at 100 kHz / 105 °C · ESR 84 mΩ · Ø10×20 mm · 5 mm pitch
