@@ -150,3 +150,7 @@ The delivered design has **zero ERC violations, zero DRC violations and zero unr
 | `docs/connections.md` | Connector map, test points and mechanical assembly |
 
 **Related project:** [Analog PWM Generator with Adjustable Dead Time](https://github.com/MouaadO/analog-pwm-generator)
+
+### Functional schematic sections
+
+The complete circuit appears on one KiCad schematic sheet, arranged into eight labelled sections: power conversion, high-side driver, low-side driver, voltage measurement, inductor-current measurement and filtering, low-side current, interfaces and test points. [Schematic guide](docs/schematic-stages.md).
